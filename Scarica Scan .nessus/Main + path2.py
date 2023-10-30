@@ -5,7 +5,7 @@ import time
 scan_number = input("Inserisci il numero della scansione: ")
 
 # Specifica il percorso completo di destinazione del file
-file_path = "C:\\Users\\danilo.dedominicis\\Desktop\\Nessus Code\\Scarica Scan .nessus\\Step 1,2,3\\risultato.nessus"
+file_path = "C:\\Users\\dan\\Desktop\\Nessus Code\\Scarica Scan .nessus\\Step 1,2,3\\risultato.nessus"
 
 url = f"https://192.168.1.37:8834/scans/{scan_number}/export"
 access_key = "a884f7c0459ff6d9aa883002895172ecf64661b4d2ab30abbbf4c3ba5a5132ef"
