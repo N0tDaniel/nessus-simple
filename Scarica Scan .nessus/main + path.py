@@ -6,8 +6,8 @@ scan_number = input("Inserisci il numero della scansione: ")
 file_path = input("Inserisci il percorso completo di destinazione del file (es. /path/risultato.nessus): ")
 
 url = f"https://192.168.1.37:8834/scans/{scan_number}/export"
-access_key = "a884f7c0459ff6d9aa883002895172ecf64661b4d2ab30abbbf4c3ba5a5132ef"
-secret_key = "99b83d7d206cf4afa3fc6d9f8b4024b0542810099253cda5e939323ece814619"
+access_key = ""
+secret_key = ""
 
 payload = {"format": "nessus"}
 headers = {
