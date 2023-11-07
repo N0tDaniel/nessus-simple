@@ -3,7 +3,7 @@ import csv
 from requests.exceptions import SSLError
 
 scan_number = input("Inserisci il numero della scansione: ")
-url = f"https://192.168.1.37:8834/scans/{scan_number}"
+url = f"https://nessusip:8834/scans/{scan_number}"
 access_key = ""
 secret_key = ""
 
