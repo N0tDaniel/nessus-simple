@@ -8,7 +8,7 @@ To do:
 
 3 Caricare una determinata lista di ip presenti in un determinato path ( SEMPRE DA CSV ) ---- fatto
 
-4 Unire tutte le script in una singola con UI interattiva tramite l'utilizzo di flask ---- in progress
+4 Unire tutte le script in una singola con UI interattiva usando flask come framework ---- in progress
 
 Plus
 
